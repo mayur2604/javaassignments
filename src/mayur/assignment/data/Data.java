@@ -1,8 +1,8 @@
 package mayur.assignment.data;
 
 public class Data {
-    int number;
-    char letter;
+    private int number;
+    private char letter;
 
     public void printData() {
         System.out.println(number + " " + letter);
