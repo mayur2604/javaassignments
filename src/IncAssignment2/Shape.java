@@ -15,7 +15,7 @@ public class Shape {
         System.out.println("Rectangle");
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         new Shape(3, 4);
     }
 }

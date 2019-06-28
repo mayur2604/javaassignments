@@ -4,7 +4,7 @@ import mayur.assignment.data.Data;
 import mayur.assignment.singleton.Singleton;
 
 public class main {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Data data = new Data();
         data.printData();
         data.printLocalData();

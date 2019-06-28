@@ -11,6 +11,6 @@ public class Data {
     public void printLocalData() {
         int localNumber;
         char localLetter;
-        // System.out.println(localNumber + " " + localLetter); local-varialbes needs to be intialized before using
+       //  System.out.println(localNumber + " " + localLetter); local-varialbes needs to be intialized before using
     }
 }

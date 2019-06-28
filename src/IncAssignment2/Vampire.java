@@ -49,7 +49,7 @@ public class Vampire {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         int count = 0, number = 1000;
         while (count != 100) {
             if (isVampire(number))

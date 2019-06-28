@@ -1,5 +1,6 @@
 package mayur.assignment.singleton;
 
+
 public class Singleton {
     private String name;
 
