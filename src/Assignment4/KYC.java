@@ -22,9 +22,9 @@ public class KYC {
             LocalDate upper = signupDate.plusDays(30);
             LocalDate lower = signupDate.minusDays(30);
             if (upper.isBefore(currentDate)) {
-                System.out.println(lower.toString() + " " + upper.toString());
+                System.out.println(lower.getDayOfMonth()+"-"+lower.getMonthValue()+"-"+lower.getYear()+" "+upper.getDayOfMonth()+"-"+upper.getMonthValue()+"-"+upper.getYear());
             } else if (lower.isBefore(currentDate)) {
-                System.out.println(lower.toString() + " " + currentDate.toString());
+                System.out.println(lower.getDayOfMonth()+"-"+lower.getMonthValue()+"-"+lower.getYear()+" "+currentDate.getDayOfMonth()+"-"+currentDate.getMonthValue()+"-"+currentDate.getYear());
             } else
                 System.out.println("No Range");
 
